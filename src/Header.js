@@ -77,7 +77,6 @@ class HeaderMain extends React.Component {
           </div>
           <div className="header-main__profile">
             <div className="header-main__pics">
-              <div className={`header-main__pic header-main__pic_search ${!this.state.searchHidden ? "header-main__pic_search_is-hidden" : ""}`} onClick={() => this.handleSearchClick()}></div>
               <div className="header-main__pic_border"></div>
               <div className="header-main__pic header-main__pic_profile" onClick={() => this.setVisible('profile')}>
                 <div className="header-main__pic_profile_menu"></div>
@@ -89,6 +88,7 @@ class HeaderMain extends React.Component {
               </CartContext.Consumer>
                 <div className="header-main__pic_basket_menu"></div>
               </div>
+              <div className="header-main__pic_border"></div>
             </div>
 {/*             <form  className={`header-main__search ${this.state.searchHidden ? "" : "header-main__search_active"}`} >
               <input placeholder="Поиск"/>

@@ -943,7 +943,7 @@ li a:hover {
   background-position: 49% 0;
 }
 .hidden-panel {
-  padding: 10px 158px 15px;
+  padding: 10px 15px 15px;
   text-align: right;
 }
 .hidden-panel__profile {
@@ -1053,6 +1053,12 @@ li a:hover {
 .hidden {
   visibility: hidden;
 }
+
+.header-main__hidden-panel.hidden-panel .wrapper {
+  width: 100%;
+}
+
+
 /* ~~~ Preloader ~~~ */
 .preloader_wrapper {
   display: block;

@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 
 import sliderJpg from './img/slider.jpg'
-import slider180degJpg from './img/slider180deg.jpeg'
+import sliderJpg2 from './img/party-shoes.jpg'
+import sliderJpg3 from './img/sports.jpeg'
+import sliderJpg4 from './img/men.jpeg'
 
 class PromoSlider extends Component {
   constructor(props) {
@@ -49,13 +51,13 @@ class PromoSlider extends Component {
             <img src={sliderJpg} alt="slide picture"/>
           </a>
           <a ref={this.setSliderImagesRefs} className="slider__image" href="#">
-            <img src={slider180degJpg} alt="slide picture"/>
+            <img src={sliderJpg2} alt="slide picture"/>
           </a>
           <a ref={this.setSliderImagesRefs} className="slider__image" href="#">
-            <img src={sliderJpg} alt="slide picture"/>
+            <img src={sliderJpg3} alt="slide picture"/>
           </a>
           <a ref={this.setSliderImagesRefs} className="slider__image" href="#">
-            <img src={slider180degJpg} alt="slide picture"/>
+            <img src={sliderJpg4} alt="slide picture"/>
           </a>
           <div ref={this.setSliderArrowsRefs} className="arrow slider__arrow slider__arrow_left"/>
           <div ref={this.setSliderArrowsRefs} className="arrow slider__arrow slider__arrow_right"/>

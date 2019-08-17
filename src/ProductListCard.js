@@ -24,8 +24,6 @@ export const ProductListCard = ({brand, categoryId, id, images, price, title, is
         <div style={{zIndex: 100}} className={`product-catalogue__product_favorite${isFavorite(id) ? "-chosen" : ""}`} onClick={handleFavorite}>
           <p></p>
         </div>
-        <div className="arrow arrow_left"></div>
-        <div className="arrow arrow_right"></div>
       </div>
       <div className="item-desc">
         <h4 className="item-name">{title}</h4>
